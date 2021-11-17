@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background: #202731;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Halant', serif;
+  padding-bottom: 0.5em;
+}
+
+section {
+  position: relative;
+  flex-direction: column;
+  min-height: 400px;
+  padding: 6em 4em 3em 6em;
+  text-align: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 10px; 
+  font-size: 1.2em;
+}
